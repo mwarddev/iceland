@@ -53,3 +53,18 @@ The strategy plane looks at the user's wants and needs, in essence, if a site is
 
 Further research into the pros and cons of existing travel blogs helped me to ascertain important and viable elements and features needed to make my site successful.
 
+### Scope
+
+The Scope plane further defines the wants and needs of the user/customer. As such, the following requirements will need to be met:
+
+* What does the user want to accomplish?
+    * Knowledge about a potential destination to visit.
+
+* What does the user need to do in order to achieve their objective?
+    * Navigate through the site, read articles and view images.
+
+* What constraints does the site or app have to conform within?
+    * Limited build time and the use of only HTML & CSS.
+
+* What dynamic constraints do we have to meet?
+    * Make sure information is factually correct.
