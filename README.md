@@ -5,8 +5,6 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
 
 ## User Experience (UX)
 
-***
-
 * ### User Stories
 
     * __As a New Visitor:__
@@ -30,25 +28,25 @@ Following the 5 planes of ___User Experience Design___ I whittled 3 ideas down t
 
 The strategy plane looks at the user's wants and needs, in essence, if a site isn't wanted or needed why build it? The following questions are designed to find this out.
 
-* Is the content culturally appropriate?
+1. Is the content culturally appropriate?
     * Yes. Content is directed at anyone interested in visiting the subject destination.
 
-* Is the content relevant?
+1. Is the content relevant?
     * Yes. All content contains information about the subject matter.
 
-* Can we track and catalogue the content in an intuitive way?
+1. Can we track and catalogue the content in an intuitive way?
     * Yes. We can use paragraphs, captions, images and links.
 
-* Is the technology appropriate?
+1. Is the technology appropriate?
     * Yes. Images and text are what people are interested in when looking at similar sites. We could include video also.
 
-* Why are we so special? What sets us apart?
+1. Why are we so special? What sets us apart?
     * Travel blogs offer a unique opinion from the author and it’s this that gives the product its USP.
 
-* Tech considerations?
+1. Tech considerations?
     * Site is being made for the general public so will definitely have to be responsive as most will be viewing on mobile phones.
 
-* Why would a user want this?
+1. Why would a user want this?
     * Users tend to get opinions from more than one source before committing to a product. Take consumer products for instance, if this wasn’t the case, only one review per product would suffice. However, this isn’t the case and consumers tend to read a few reviews before committing to buy.
 
 Further research into the pros and cons of existing travel blogs helped me to ascertain important and viable elements and features needed to make my site successful.
@@ -57,14 +55,14 @@ Further research into the pros and cons of existing travel blogs helped me to as
 
 The Scope plane further defines the wants and needs of the user/customer. As such, the following requirements will need to be met:
 
-* What does the user want to accomplish?
+1. What does the user want to accomplish?
     * Knowledge about a potential destination to visit.
 
-* What does the user need to do in order to achieve their objective?
+1. What does the user need to do in order to achieve their objective?
     * Navigate through the site, read articles and view images.
 
-* What constraints does the site or app have to conform within?
+1. What constraints does the site or app have to conform within?
     * Limited build time and the use of only HTML & CSS.
 
-* What dynamic constraints do we have to meet?
+1. What dynamic constraints do we have to meet?
     * Make sure information is factually correct.
