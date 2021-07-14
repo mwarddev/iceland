@@ -66,3 +66,39 @@ The Scope plane further defines the wants and needs of the user/customer. As suc
 
 1. What dynamic constraints do we have to meet?
     * Make sure information is factually correct.
+
+### Structure
+
+The information gathered in the Strategy and Scope planes is then used to design a site map to allow users to easily navigate the website.
+
+* Landing Page
+    * Nav bar (sticky) with links to the Fire page, Ice page and Gallery page.
+    * Hero image (Glacier) with title and subtile overlay (links to Fire and Ice in subtile).
+    * Introduction, about me, purpose of the site, image.
+    * Map of iceland.
+    * Brief history of icelandic heritage, image/s.
+    * Aurora Borealis section, image.
+    * Reykjavik section, images.
+    * next page button.
+    * Footer with social media links.
+* Fire page
+    * Nav bar (sticky) with links to the Landing page, Ice page and Gallery page.
+    * Hero image (erupting volcano) with title overlay.
+    * Lava fields section, image.
+    * Geysers section, images.
+    * Previous page and next page buttons.
+    * Footer with social media links.
+* Ice page
+    * Nav bar with links to the Landing page, Fire page and Gallery page.
+    * Hero image (glacier) with title overlay.
+    * Glaciers section, images.
+    * Diamond beach section, images.
+    * Previous page and next page buttons.
+    * Footer with social media links.
+* Gallery page
+    * Nav bar with links to the Landing page, Fire page and Ice page.
+    * Slide show of images.
+    * Static images section.
+    * Related video/s
+    * Previous page button.
+    * Footer with social media links. 
