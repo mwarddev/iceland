@@ -101,4 +101,13 @@ The information gathered in the Strategy and Scope planes is then used to design
     * Static images section.
     * Related video/s
     * Previous page button.
-    * Footer with social media links. 
+    * Footer with social media links.
+
+### Skeleton
+
+Using the site map developed in the Structure plane the Skeleton plane looks at using that information to develope a blueprint of the website. This gives us some visual representation of the layout of the site. I created wireframes for 3 different platforms (desktop, tablet and mobile) to show responsiveness of the site. The wireframes were created using [Balsamiq](https://balsamiq.com).
+
+<details>
+<summary>Wireframes</summary>
+![wireframes](/assets/wireframes/wireframes.pdf)
+</details>
