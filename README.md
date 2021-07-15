@@ -109,5 +109,5 @@ Using the site map developed in the Structure plane the Skeleton plane looks at 
 
 <details>
 <summary>Wireframes</summary>
-![wireframes](/assets/wireframes/wireframes.pdf)
+![wireframes](assets/wireframes/wireframes.pdf)
 </details>
