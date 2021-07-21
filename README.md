@@ -5,14 +5,15 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
 
 ## Contents
 
-* [Introduction](#the-land-of-fire-&-ice)
-* [User Experience (UX)](#user-experience-(ux))
+* [Introduction](#iceland)
+* [User Experience (UX)](#user-experience-ux)
     * [User Stories](#user-stories)
-* [Design](#design)
+* [Design (UXD)](#design-uxd)
     * [Strategy](#strategy)
     * [Scope](#scope)
     * [Structure](#structure)
     * [Skeleton](#skeleton)
+    * [Surface](#surface)
     
 
 ## User Experience (UX)
@@ -32,7 +33,7 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
         * I would like to navigate to relevant links to external sites with ease.
         * If I have found the information in the site to be useful, i want to be able to leave feedback.
 
-## Design
+## Design (UXD)
 
 Following the 5 planes of ___User Experience Design___ I whittled 3 ideas down to 1 and used each of the 5 planes to design a site that would answer all of the user stories.
 
@@ -121,3 +122,12 @@ Using the site map developed in the Structure plane the Skeleton plane looks at 
 
 View wireframes [here](assets/wireframes/wireframes.pdf).
 
+### Surface
+
+The final layer of design looks at the aesthetic of the site. My goal is to make the site visually appealing to the user while also complementing the imagery and content of the site without compromising accessibility for users with disabilities.
+
+#### Colour Palette
+
+![Colour Palette](assets/readme_images/colour_palette.png)
+
+I chose this palette from [coolors](https://coolors.co) to complement the blues of the ice in many of my site's images. 
