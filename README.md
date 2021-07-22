@@ -131,3 +131,16 @@ The final layer of design looks at the aesthetic of the site. My goal is to make
 ![Colour Palette](assets/readme_images/colour_palette.png)
 
 I chose this palette from [coolors](https://coolors.co) to complement the blues of the ice in many of my site's images. 
+
+#### Typography
+
+All fonts have been imported from [Google Fonts](https://fonts.google.com/).
+
+For the headings I went with the cursive font of _*Cinzel Decorative*_. I wanted something quite angular as a nod towards viking runes but also something with a bit of flourish that wouldn't diminish readability.
+
+For paragraph text I went with the recommended pairing of _*Roboto*_ of the _*Sans-Serif*_ font family. Again, this decision was made for improved readability.
+
+#### Imagery
+
+Two images of volcano eruptions were sourced from the royalty free website [Unsplash](https://Unsplash.com). The photos were taken by Tanya Grypachevskaya & Izabela Kraus respectively.
+All other images were taken by myself on location.
