@@ -142,5 +142,5 @@ For paragraph text I went with the recommended pairing of _*Roboto*_ of the _*Sa
 
 #### Imagery
 
-Two images of volcano eruptions were sourced from the royalty free website [Unsplash](https://Unsplash.com). The photos were taken by Tanya Grypachevskaya & Izabela Kraus respectively.
+Two images of volcano eruptions were sourced from the royalty free website [Unsplash](https://Unsplash.com). The photos were taken by [Tanya Grypachevskaya](https://unsplash.com/@stilltane4ka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) & [Izabela Kraus](https://unsplash.com/@izabelakraus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) respectively.
 All other images were taken by myself on location.
