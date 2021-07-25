@@ -12,45 +12,56 @@ body {
 /* logo & nav bar */
 
 #navbar {
-    color: #0d1b2a;
-    background: linear-gradient(#415a77 0%, #778da9 40%, #778da9 60%, #415a77 100%);
-    box-shadow: 0 5px 10px #1b263b;
     width: 100%;
     height: 60px;
-    margin: 0;
-    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    background: linear-gradient(#415a77 0%, #778da9 40%, #778da9 60%, #415a77 100%);
+    box-shadow: 0 5px 10px #1b263b;
 }
 
-#logo, #navigate {
-    line-height: 30px;
+.navflex {
+    height: 60px;
+    color: #1b263b;
+    font-size: 125%;
+    text-decoration: none;
 }
 
 #logo {
-    margin: 15px 30px;
-    color: #0d1b2a;
-    float: left;
+    margin: 12px 0 0 30px;
+    font-weight: 300;
+}
 
+#destination {
+    text-transform: uppercase;
+    margin: 12px auto;
 }
 
 #navigate {
-    font-size: 1.5em;
-    color: #0d1b2a;
-}
-
-#navigate ul {
-    float: right;
-    margin: 15px 0;   
+    display: inline-flex;
+    height: 36px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 #navigate li {
-    float: left;
-    list-style-type: none;
+    list-style-type: none;    
     padding-right: 15px;
     margin-right: 15px;
-    border-right: 1px inset #1b263b;
+    border-right: 1px solid #415a77;
+    font-size: 130%;
 }
 
 #navigate a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
+}
+
+#navigate a:hover {
+    color: #415a77;
+}
+
+#navigate .active {
+    color: #415a77;
 }
