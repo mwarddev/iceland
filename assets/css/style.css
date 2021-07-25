@@ -65,3 +65,22 @@ body {
 #navigate .active {
     color: #415a77;
 }
+
+/* hero image and headings */
+
+.hero-image-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.headings {
+    color: #e0e1dd;
+}
+
+.hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/lagoon_reflection.jpg) no-repeat center center;
+}
