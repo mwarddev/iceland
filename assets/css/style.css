@@ -79,8 +79,29 @@ body {
 }
 
 .headings {
-    /* color: #e0e1dd; */
-    color: black;
+    color: #e0e1dd;
+    font-family: 'Cinzel Decorative', cursive;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 228px;
+    letter-spacing: 4px;
+    font-size: 200%;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+.headings h1,h2 {
+    margin: 0 auto;    
+}
+
+.headings a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.headings a:hover {
+    color: #778da9;
 }
 
 .hero-image img {
