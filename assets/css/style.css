@@ -113,8 +113,8 @@ body {
 
 /* About section */
 
-#about {
-    margin: 40px 50px;
+.layout {
+    padding: 40px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -139,4 +139,32 @@ body {
     flex-shrink: 1;
     flex-basis: auto;
     font-size: 130%;
+}
+
+/* Travel section */
+
+.layout-blue {
+    padding: 40px 50px;
+    background-color: #778da9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#travel-heading {
+    width: 60%;
+    font-size: 130%;
+}
+
+#map-container {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+#map {
+    width: 500px;
+    height: 333px;
+    object-fit: contain;
 }
