@@ -157,15 +157,35 @@ body {
     font-size: 130%;
 }
 
-#map-container {
+#map-img-container {
     width: 500px;
     height: 500px;
     overflow: hidden;
     position: relative;
 }
 
-#map {
+#map-img {
     width: 500px;
     height: 333px;
     object-fit: contain;
+}
+
+/* Heritage section */
+
+#heritage-img-container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#heritage-img {
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+
+#heritage-heading {
+    width: 60%;
+    font-size: 130%;
 }
