@@ -21,6 +21,7 @@ body {
     position: fixed;
     top: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 .navflex {
@@ -108,4 +109,34 @@ body {
     height: 600px;
     width: 100%;
     object-fit: cover;
-}   
+}
+
+/* About section */
+
+#about {
+    margin: 40px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-img-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
+
+#about-img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+#about-heading {
+    width: 60%;
+    flex-shrink: 1;
+    flex-basis: auto;
+    font-size: 130%;
+}
