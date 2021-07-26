@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     background-color: #e0e1dd;
     color: #0d1b2a;
-    margin: 62px 0 0 0;
+    margin: 32px 0 0 0;
     padding: 0;
 }
 
@@ -13,7 +13,7 @@ body {
 
 #navbar {
     width: 100%;
-    height: 60px;
+    height: 40px;
     display: inline-flex;
     justify-content: space-between;
     background: linear-gradient(#415a77 0%, #778da9 40%, #778da9 60%, #415a77 100%);
@@ -25,26 +25,26 @@ body {
 }
 
 .navflex {
-    height: 60px;
+    height: 40px;
     color: #1b263b;
-    font-size: 125%;
+    font-size: 105%;
     text-decoration: none;
 }
 
 #logo {
-    margin: 12px 0 0 30px;
+    margin: 5px 0 0 30px;
     font-weight: 300;
 }
 
 #destination {
     text-transform: uppercase;
-    margin: 12px auto;
+    margin: 5px auto;
 }
 
 #navigate {
     display: inline-flex;
     height: 36px;
-    margin-top: 12px;
+    margin-top: 8px;
     margin-bottom: 0;
     padding-left: 0;
 }
@@ -54,7 +54,7 @@ body {
     padding-right: 15px;
     margin-right: 15px;
     border-right: 1px solid #415a77;
-    font-size: 130%;
+    font-size: 110%;
 }
 
 #navigate a {
@@ -74,7 +74,7 @@ body {
 
 .hero-image-container {
     width: 100%;
-    height: 600px;
+    height: 640px;
     overflow: hidden;
     position: relative;
 }
@@ -85,7 +85,7 @@ body {
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 228px;
+    top: 240px;
     letter-spacing: 4px;
     font-size: 200%;
     font-weight: bold;
@@ -107,7 +107,7 @@ body {
 }
 
 .hero-image img {
-    height: 600px;
+    height: 640px;
     width: 100%;
     object-fit: cover;
 }
@@ -115,7 +115,7 @@ body {
 /* About section */
 
 .layout {
-    padding: 40px 50px;
+    padding: 35px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -145,7 +145,7 @@ body {
 /* Travel section */
 
 .layout-blue {
-    padding: 40px 50px;
+    padding: 35px 50px;
     background-color: #778da9;
     display: flex;
     justify-content: space-around;
