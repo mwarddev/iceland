@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     background-color: #e0e1dd;
     color: #0d1b2a;
-    margin: 64px 0 0 0;
+    margin: 62px 0 0 0;
     padding: 0;
 }
 
@@ -89,7 +89,8 @@ body {
     letter-spacing: 4px;
     font-size: 200%;
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    text-shadow: 3px 3px #0d1b2a;    
 }
 
 .headings h1,h2 {
