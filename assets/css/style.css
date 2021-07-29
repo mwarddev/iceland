@@ -126,75 +126,67 @@ body {
     object-fit: cover;
 }
 
-/* About section */
+/* Section structures */
 
-.layout {
-    padding: 35px 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.layout-white {
+    width: 100%;
+    clear: both;
+    font-size: 130%;
+    margin: 0% auto;
+    padding: 30px 0;
+    display: inline-block;
 }
 
+.layout-blue {
+    width: 100%;
+    background-color: #778da9;
+    clear: both;
+    font-size: 130%;    
+}
+
+.content-container {
+    margin: 0 10%;
+    padding: 30px 0;
+}
+
+/* About section */
+
 #about-img-container {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+
+#about-img {
     width: 300px;
     height: 300px;
     overflow: hidden;
-    position: relative;
     border-radius: 50%;
-    object-fit: contain;
+    object-fit: cover;
+    /* float: right; */
 }
 
-#about-heading {
-    width: 60%;
-    flex-shrink: 1;
-    flex-basis: auto;
-    font-size: 130%;
+#about-text-container {
+    width: 50%;
+    float: right;
+    margin-right: 10%;
 }
 
 /* Travel section */
 
-.layout-blue {
-    padding: 35px 50px;
-    background-color: #778da9;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#travel-heading {
-    width: 60%;
-    font-size: 130%;
-}
-
-#map-img-container {
+#travel-img {
     width: 500px;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-}
-
-#map-img {
-    width: 500px;
-    height: 333px;
+    height: 350px;
     object-fit: contain;
+    float: right;
+    padding-bottom: 20px;
 }
 
 /* Heritage section */
-
-#heritage-img-container {
-    width: 500px;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-}
 
 #heritage-img {
     width: 500px;
     height: 300px;
     object-fit: contain;
-}
-
-#heritage-heading {
-    width: 60%;
-    font-size: 130%;
+    float: left;
 }
