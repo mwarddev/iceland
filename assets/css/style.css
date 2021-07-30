@@ -133,7 +133,7 @@ body {
     clear: both;
     font-size: 130%;
     margin: 0% auto;
-    padding: 30px 0;
+    /* padding: 30px 0; */
     display: inline-block;
 }
 
@@ -152,9 +152,10 @@ body {
 /* About section */
 
 #about-img-container {
-    width: 30%;
+    width: 25%;
     float: left;
     margin-left: 10%;
+    padding: 60px 0;
 }
 
 #about-img {
@@ -163,13 +164,15 @@ body {
     overflow: hidden;
     border-radius: 50%;
     object-fit: cover;
-    /* float: right; */
+    display: block;
+    margin: 0 auto;
 }
 
 #about-text-container {
     width: 50%;
     float: right;
     margin-right: 10%;
+    padding: 30px 0;
 }
 
 /* Travel section */
