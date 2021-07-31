@@ -272,3 +272,11 @@ figure {
 .nav-arrow-container p a:hover {
     color: #778da9;
 }
+
+footer {
+    width: 100%;
+    background-color: #1b263b;
+    color: #e0e1dd;
+    padding-top: 30px;
+    display: inline-block;
+}
