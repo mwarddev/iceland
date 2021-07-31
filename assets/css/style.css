@@ -162,14 +162,19 @@ figure {
     padding: 30px 0;
 }
 
+.extra-img-container {
+    width: 100%;
+    display: inline-block;
+    clear: right;
+}
+
 .img-right {
     width: 500px;
     height: 350px;
     object-fit: cover;
     overflow: hidden;
     float: right;
-    padding: 0 0 20px 20px;
-    
+    padding: 0 0 20px 20px;    
 }
 
 .img-left {
@@ -209,4 +214,35 @@ figure {
     float: right;
     margin-right: 10%;
     padding: 30px 0;
+}
+
+/* Reykjavik section */
+
+#church-img {
+    width: 250px;
+    height: 400px;
+}
+
+#building-img {
+    width: 25%;
+    height: 400px;
+    margin: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#english-bar-img {
+    width: 35%;
+    height: 350px;
+    margin: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#christmas-img {
+    width: 35%;
+    height: 350px;
+    margin: 5px;
+    object-fit: cover;
+    overflow: hidden;
 }
