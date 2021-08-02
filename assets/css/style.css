@@ -168,7 +168,7 @@ figure {
     object-fit: cover;
     overflow: hidden;
     float: right;
-    padding: 0 0 20px 20px;    
+    margin: 0 0 20px 20px;   
 }
 
 .img-left {
@@ -177,12 +177,12 @@ figure {
     object-fit: cover;
     overflow: hidden;
     float: left;
-    padding: 0 20px 20px 0;
+    margin: 0 20px 20px 0;
 }
 
-/* section img {
-    box-shadow: 5px 5px 2px darkslategray;
-} */
+figcaption {
+    position: absolute;
+}
 
 /* About section */
 
@@ -266,12 +266,13 @@ figure {
 .nav-arrow-container p a {
     text-decoration: none;
     color: #1b263b;
-    font-size: 200%;    
+    font-size: 200%;
+    text-shadow: 5px 5px 5px darkslategrey;    
 }
 
 .nav-arrow-container p a:hover {
     color: #778da9;
-    text-shadow: 5px 5px 5px darkslategrey;
+    text-shadow: none;    
 }
 
 /* Footer */
@@ -331,6 +332,10 @@ footer h3 {
 
 .social a {
     color: #778da9;   
+}
+
+.social a:hover {
+    color: #e0e1dd;
 }
 
 .copyright {
