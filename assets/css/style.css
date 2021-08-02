@@ -125,6 +125,10 @@ figure {
     margin: 0 auto;    
 }
 
+#fire-heading {
+    font-size: 300%;
+}
+
 .headings a {
     text-decoration: none;
     color: inherit;
@@ -273,6 +277,10 @@ figcaption {
 .nav-arrow-container p a:hover {
     color: #778da9;
     text-shadow: none;    
+}
+
+#nav-gap {
+    padding: 0 40px;
 }
 
 /* Footer */
