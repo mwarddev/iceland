@@ -7,6 +7,7 @@ body {
     color: #1b263b;
     margin: 32px 0 0 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 figure {
@@ -125,9 +126,7 @@ figure {
     margin: 0 auto;    
 }
 
-#fire-heading {
-    font-size: 300%;
-}
+
 
 .headings a {
     text-decoration: none;
@@ -354,4 +353,14 @@ footer h3 {
 
 .copyright p {
     padding-right: 25px;
+}
+
+/* fire page */
+
+#fire-heading {
+    font-size: 300%;
+}
+
+.extra-padding {
+    padding-top: 60px;
 }
