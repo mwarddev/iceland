@@ -271,12 +271,74 @@ figure {
 
 .nav-arrow-container p a:hover {
     color: #778da9;
+    text-shadow: 5px 5px 5px darkslategrey;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
+    height: 245px;
     background-color: #1b263b;
     color: #e0e1dd;
-    padding-top: 30px;
+    padding-top: 15px;
+    display: block;
+}
+footer h3 {
+    padding-left: 25px;
+}
+
+.attributes {
+    width: 33%;
     display: inline-block;
+}
+
+.attributes li {
+    margin-top: 5px;
+}
+
+.attributes a {
+    color: #778da9;
+}
+
+.attributes a:visited {
+    color: #778da9;
+}
+
+.social {
+    width: 33%;
+    display: inline-block;
+    text-align: center;  
+}
+
+.social h3 {
+    bottom: 110px;
+    text-align: left;
+    position: relative;
+}
+
+.social ul {
+    position: relative;
+    bottom: 80px;
+}
+
+.social li {
+    list-style-type: none;
+    display: inline;
+    font-size: 300%;
+    padding: 20px;    
+}
+
+.social a {
+    color: #778da9;   
+}
+
+.copyright {
+    width: 33%;
+    display: inline-block;
+    text-align: right;    
+}
+
+.copyright p {
+    padding-right: 25px;
 }
