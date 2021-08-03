@@ -376,3 +376,9 @@ footer h3 {
     width: 350px;
     height: 500px;
 }
+
+/* Ice page */
+
+#ice-heading {
+    font-size: 300%;
+}
