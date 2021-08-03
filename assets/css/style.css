@@ -382,3 +382,7 @@ footer h3 {
 #ice-heading {
     font-size: 300%;
 }
+
+#clear-right {
+    clear: right;
+}
