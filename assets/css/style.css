@@ -126,8 +126,6 @@ figure {
     margin: 0 auto;    
 }
 
-
-
 .headings a {
     text-decoration: none;
     color: inherit;
@@ -361,6 +359,20 @@ footer h3 {
     font-size: 300%;
 }
 
-.extra-padding {
-    padding-top: 60px;
+.extra-margin {
+    margin-top: 60px;
+}
+
+/* Lava fields section */
+
+.clear {
+    width: 100%;
+    clear: both;
+}
+
+/* Geyser section */
+
+#geyser-img {
+    width: 350px;
+    height: 500px;
 }
