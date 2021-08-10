@@ -154,8 +154,13 @@ figure {
 .layout-blue {
     width: 100%;
     background-color: #778da9;
+    color: black;
     clear: both;
     font-size: 130%;    
+}
+
+.layout-blue a:visited {
+    color: #e0e1dd;
 }
 
 .content-container {
@@ -285,7 +290,7 @@ figcaption {
 footer {
     width: 100%;
     height: 245px;
-    background-color: #1b263b;
+    background-color: #0d1b2a;
     color: #e0e1dd;
     padding-top: 15px;
     display: block;
