@@ -24,7 +24,7 @@ figure {
     border-radius: 2px;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 20;
 }
 
 .nav-logo {
@@ -106,6 +106,18 @@ figure {
     width: 100%;
     height: 640px;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 1);
+    /* z-index: 10; */
+    /* position: relative; */
+}
+
+.hero-image {
+    height: 640px; 
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    /* position: relative; */
+    /* z-index: 0; */
 }
 
 .headings {
@@ -119,11 +131,12 @@ figure {
     font-size: 200%;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 3px 3px 3px #0d1b2a;    
+    text-shadow: 3px 3px 3px #0d1b2a;
 }
 
 .headings h1,h2 {
-    margin: 0 auto;    
+    margin: 0 auto;
+        
 }
 
 .headings a {
@@ -133,12 +146,6 @@ figure {
 
 .headings a:hover {
     color: #778da9;
-}
-
-.hero-image img {
-    height: 640px; 
-    width: 100%;
-    object-fit: cover;
 }
 
 /* Section structures */
@@ -219,37 +226,42 @@ figcaption {
 /* Reykjavik section */
 
 #church-img {
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
 }
 
 .extra-img-container {
     width: 100%;
-    display: inline-block;
 }
 
 #building-img {
     width: 25%;
     height: 500px;
-    margin: 5px;
+    margin: 18px 20px 0 0;
     object-fit: cover;
     overflow: hidden;
+    float: left;
+    clear: left;
 }
 
 #english-bar-img {
     width: 35%;
     height: 350px;
-    margin: 5px;
+    margin: 5px 0 0 10px;
     object-fit: cover;
     overflow: hidden;
+    float: left;
+    clear: right;
 }
 
 #christmas-img {
     width: 35%;
     height: 350px;
-    margin: 5px;
+    margin: 5px 0;
     object-fit: cover;
     overflow: hidden;
+    float: right;
+    clear: right
 }
 
 /* Lower navigation arrows */
