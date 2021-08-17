@@ -412,26 +412,21 @@ footer h3 {
 }
 
 #gallery {
-    width: 1230px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 #gallery-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 0 10%;
 }
 
-.gallery-img {
-    width: 300px;
-    height: 168px;
-    object-fit: contain;
-    overflow: hidden;
+#gallery-container a img {
+    width: 100%;
 }
 
-.gallery-img img {
-    width: 300px;
-    height: 168px;
+#gallery-container a img:hover {
+    filter: grayscale(100%);
 }
