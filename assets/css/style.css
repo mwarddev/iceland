@@ -20,7 +20,7 @@ figure {
     width: 100%;
     height: 40px;
     background: linear-gradient(#415a77 0%, #778da9 40%, #778da9 60%, #415a77 100%);
-    box-shadow: 0 5px 10px #1b263b;
+    box-shadow: 0 7px 10px #1b263b;
     border-radius: 2px;
     position: fixed;
     top: 0;
@@ -29,7 +29,7 @@ figure {
 
 .nav-logo {
     height: 40px;
-    width: 33%;
+    width: 40%;
     float: left;
     text-decoration: none;
     color: inherit;
@@ -54,7 +54,7 @@ figure {
 
 .nav-destination {
     height: 40px;
-    width: 33%;
+    width: 20%;
     float: left;
     text-transform: uppercase;
     text-align: center;
@@ -65,7 +65,7 @@ figure {
 
 .navigate {
     height: 40px;
-    width: 33%;
+    width: 40%;
     float: right;
     text-decoration: none;
 }
@@ -151,7 +151,6 @@ figure {
     clear: both;
     font-size: 130%;
     margin: 0% auto;
-    display: inline-block;
 }
 
 .layout-blue {
@@ -195,28 +194,12 @@ figcaption {
 
 /* About section */
 
-#about-img-container {
-    width: 25%;
-    float: left;
-    margin-left: 10%;
-    padding: 60px 0;
-}
-
 #about-img {
     width: 300px;
     height: 300px;
     overflow: hidden;
     border-radius: 50%;
     object-fit: cover;
-    display: block;
-    margin: 0 auto;
-}
-
-#about-text-container {
-    width: 50%;
-    float: right;
-    margin-right: 10%;
-    padding: 30px 0;
 }
 
 /* Reykjavik section */
@@ -224,40 +207,6 @@ figcaption {
 #church-img {
     width: 350px;
     height: 500px;
-}
-
-.extra-img-container {
-    width: 100%;
-}
-
-#statue-img {
-    width: 25%;
-    height: 500px;
-    margin: 18px 20px 0 0;
-    object-fit: cover;
-    overflow: hidden;
-    float: left;
-    clear: left;
-}
-
-#english-bar-img {
-    width: 35%;
-    height: 350px;
-    margin: 5px 0 0 10px;
-    object-fit: cover;
-    overflow: hidden;
-    float: left;
-    clear: right;
-}
-
-#christmas-img {
-    width: 35%;
-    height: 350px;
-    margin: 5px 0;
-    object-fit: cover;
-    overflow: hidden;
-    float: right;
-    clear: right
 }
 
 /* Lower navigation arrows */
@@ -271,10 +220,10 @@ figcaption {
 
 .nav-arrow-container p {
     margin: 0 auto;
-    font-size: 200%;
+    font-size: 150%;
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 700;
-    margin-top: 100px;
+    padding: 44px 0;
 }
 
 .nav-arrow-container p a {
@@ -297,18 +246,19 @@ figcaption {
 
 footer {
     width: 100%;
-    height: 245px;
     background-color: #0d1b2a;
     color: #e0e1dd;
     padding-top: 15px;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 footer h3 {
     padding-left: 25px;
 }
 
 .attributes {
-    width: 33%;
     display: inline-block;
 }
 
@@ -325,31 +275,27 @@ footer h3 {
 }
 
 .social {
-    width: 33%;
-    display: inline-block;
-    text-align: center;  
+    text-align: center;
+    justify-content: center;
 }
 
 .social h3 {
-    bottom: 110px;
-    text-align: left;
-    position: relative;
+    padding: 0;
 }
 
 .social ul {
-    position: relative;
-    bottom: 80px;
+    padding: 0;
 }
 
 .social li {
     list-style-type: none;
-    display: inline;
     font-size: 300%;
-    padding: 20px;    
+    padding: 20px;
+    display: inline-flex;
 }
 
 .social a {
-    color: #778da9;   
+    color: #778da9; 
 }
 
 .social a:hover {
@@ -357,9 +303,8 @@ footer h3 {
 }
 
 .copyright {
-    width: 33%;
-    display: inline-block;
-    text-align: right;    
+    text-align: right;
+    align-self: flex-end;  
 }
 
 .copyright p {
@@ -411,6 +356,8 @@ footer h3 {
     padding-top: 30px;
 }
 
+/* Gallery images */
+
 #gallery {
     width: 100%;
 }
@@ -431,6 +378,8 @@ footer h3 {
     filter: grayscale(100%);
     background-color: #778da9;
 }
+
+/* video */
 
 #video-container {
     padding: 50px 0;
