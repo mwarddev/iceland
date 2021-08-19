@@ -213,7 +213,6 @@ figcaption {
 
 .nav-arrow-container {
     width: 100%;
-    height: 200px;
     display: block;
     text-align: center;
 }
@@ -390,3 +389,42 @@ footer h3 {
     display: block;
     margin: 0 auto;
 }
+
+/* media queries */
+
+/* For screen sizes under 950px wide */
+
+@media screen and (max-width: 950px) {
+    
+    /* Navbar */
+    .nav-destination {
+        display: none;
+    }
+
+    .nav-logo {
+        width: 50%;
+    }
+
+    .navigate {
+        width: 50%;
+    }
+
+    .navigate ul {
+        padding: 0;
+    }
+
+    #volcano figure {
+        float: none;
+        margin-top: 50px;
+    }
+
+    #volcano h2 {
+        margin-top: 50px;
+    }
+
+    .extra-margin {
+        margin-top: 0;
+    }
+}
+
+/* For screen sizes under 820px wide */
