@@ -100,6 +100,60 @@ figure {
     color: #415a77;
 }
 
+/* Drop down menu for smaller screens */
+
+.small-nav {
+    position: relative;
+    display: none;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 120px;
+    top: 5px;
+    right: 0;
+}
+
+.dropdown ul {
+    padding: 0;
+    position: absolute;
+    top: 19px;
+    opacity: 0;
+    transition-delay: all 1s;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+}
+
+.dropdown li {
+    text-align: center;
+    list-style-type: none;
+    width: 120px;
+    background: linear-gradient(#415a77 0%, #778da9 40%, #778da9 60%, #415a77 100%);
+    line-height: 40px;
+}
+
+.dropdown a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.dropdown ul li a {
+    width: 120px;
+}
+
+.dropdown a:hover {
+    color: #415a77;
+}
+
+.menu:focus + ul {
+    opacity: 1;
+    visibility: visible;
+}
+
 /* hero image and headings */
 
 .hero-image-container {
@@ -478,3 +532,23 @@ footer {
 }
 
 /* For screen sizes under 700px wide */
+
+@media screen and (max-width: 700px) {
+    .navigate {
+        display: none;
+    }
+
+    .small-nav {
+        display: block;
+    }
+
+    .content-container {
+        margin: 0 10px;
+    }
+
+    .next-prev {
+        display: none;
+    }
+}
+
+/* For screen sizes under 550px wide */

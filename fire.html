@@ -38,6 +38,27 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- Drop down menu for smaller screens -->
+            <nav class="small-nav">
+                <div class="dropdown"> 
+                    <a class="menu" href="#">MENU</a>  
+                    <ul>                    
+                        <li>
+                            <a href="index.html" aria-label="Link returns to the top of the Home page">Home</a>                     
+                        </li>
+                        <li class="active">
+                            <a href="fire.html" aria-label="Link navigates to the Fire page">Fire</a>
+                        </li>
+                        <li>
+                            <a href="ice.html" aria-label="Link to the Ice page">Ice</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>        
     </header>
 
@@ -106,7 +127,7 @@
     <!-- Arrow navigation -->
     <section class="layout-white">
         <div class="nav-arrow-container">
-            <p><a href="index.html" aria-label="Link to the Home page">&#x2190; </a> PREVIOUS PAGE <span id="nav-gap"></span> NEXT PAGE <a href="ice.html" aria-label="Link to the Ice page">&#x2192;</a></p>            
+            <p><a href="index.html" aria-label="Link to the Home page">&#x2190; </a> <span class="next-prev">PREVIOUS PAGE</span><span id="nav-gap"></span><span class="next-prev">NEXT PAGE</span><a href="ice.html" aria-label="Link to the Ice page">&#x2192;</a></p>            
         </div>
     </section>
 

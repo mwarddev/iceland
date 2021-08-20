@@ -31,33 +31,31 @@
                         <a href="fire.html" aria-label="Link navigates to the Fire page">Fire</a>
                     </li>
                     <li class="nav-divider">
-                        <a href="ice.html" aria-label="Link to the Ice page">Ice</a>
-                    </li>
+                        <a href="ice.html" aria-label="Link to the Ice page">Ice</a>                        </li>
                     <li>
                         <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
                     </li>
                 </ul>
             </nav>
-
-            <!-- Drop down menu for smaller screens -->
-            <nav class="small-nav">
-                <div class="dropdown"> 
-                    <a class="menu" href="#">MENU</a>  
-                    <ul>                    
-                        <li class="active">
-                            <a href="index.html" aria-label="Link returns to the top of the Home page">Home</a>                     
-                        </li>
-                        <li>
-                            <a href="fire.html" aria-label="Link navigates to the Fire page">Fire</a>
-                        </li>
-                        <li>
-                            <a href="ice.html" aria-label="Link to the Ice page">Ice</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
-                        </li>
-                    </ul>
-                </div>
+            <nav id="drop">   
+                <ul>
+                    <li><a id="menu" href="#">MENU</a>
+                        <ul id="dropdown">
+                            <li class="active nav-divider">
+                                <a href="index.html" aria-label="Link returns to the top of the Home page">Home</a>
+                            </li>
+                            <li class="nav-divider">
+                                <a href="fire.html" aria-label="Link navigates to the Fire page">Fire</a>
+                            </li>
+                            <li class="nav-divider">
+                                <a href="ice.html" aria-label="Link to the Ice page">Ice</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
         </div>        
     </header>
@@ -146,7 +144,7 @@
     </section>
     <section class="layout-white">
         <div class="nav-arrow-container">
-            <p><span class="next-prev">NEXT PAGE</span><a href="fire.html" aria-label="Link to the Fire page">&#x2192;</a></p>            
+            <p>NEXT PAGE <a href="fire.html" aria-label="Link to the Fire page">&#x2192;</a></p>            
         </div>
     </section>
 
