@@ -531,6 +531,18 @@ footer {
         margin-top: 30px;
     }
 
+    .hero-image-container {
+        height: 500px;
+    }
+
+    .hero-image {
+        height: 500px;
+    }
+
+    .headings {
+        top: 220px;
+    }
+
 }
 
 /* For screen sizes under 700px wide */
@@ -551,6 +563,10 @@ footer {
     .next-prev {
         display: none;
     }
+
+    .headings {
+        top: 220px;
+    }
 }
 
 /* For screen sizes under 550px wide */
@@ -564,6 +580,17 @@ footer {
     #small-logo {
         opacity: 1;
         pointer-events: all;
+    }
+
+    #space {
+        margin-right: 22px;
+    }
+
+    #compass {
+        width: 20px;
+        height: 20px;
+        margin: 0 auto;
+        top: 4px;
     }
 
     .img-left, .img-right, figure img {
@@ -581,18 +608,73 @@ footer {
         margin-top: 70px;
     }
 
-    #video-container {
+    #video {
         width: 100vw;
-        height: auto;
-        margin: 0 auto;
+        height: 50vh;
     }
 
-    #gallery {
+    #video-container {
         margin: 0 auto;
     }
 
     #about-img {
         width: 200px;
         height: 200px;
+    }
+
+    .headings {
+        top: 170px;
+        font-size: 180%;
+    }
+
+    .hero-image-container {
+        height: 450px;
+    }
+
+    .hero-image {
+        height: 450px;
+    }
+}
+
+/* For screen sizes under 370px wide */
+
+@media screen and (max-width: 370px) {
+
+    .img-left, .img-right, figure img {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .content-container {
+        margin: 0 auto;
+    }
+
+    .content-container h2 {
+        text-align: center;
+    }
+
+    #church-img, #geyser-img {
+        width: 300px;
+        height: 450px;
+    }
+
+    figcaption {
+        font-size: 1rem;
+    }
+
+    #gallery-container {
+        margin: 0 auto;
+    }
+
+    footer ul {
+        padding-inline-start: 20px;
+    }
+
+    #gallery-header {
+        font-size: 150%;
+    }
+
+    .extra-margin {
+        padding: 50px 0;
     }
 }
