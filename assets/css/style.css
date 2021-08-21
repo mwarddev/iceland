@@ -48,10 +48,15 @@ figure {
 }
 
 #compass {
-    height: 29.6px;
-    width: 29.6px;
+    height: 18px;
+    width: 18px;
     position: absolute;
-    margin-left: 5px;    
+    margin-left: 2px;
+    top: 6px;    
+}
+
+#space {
+    margin-right: 22px;
 }
 
 .nav-destination {
@@ -655,6 +660,10 @@ footer {
 
     .content-container p {
         margin: 0 10px;
+    }
+
+    .anchor-align {
+        margin-left: 10px;
     }
 
     #church-img, #geyser-img {
