@@ -120,7 +120,7 @@ figure {
     align-items: center;
     position: absolute;
     width: 120px;
-    top: 5px;
+    top: 6px;
     right: 0;
 }
 
@@ -592,10 +592,10 @@ footer {
     }
 
     #compass {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         margin: 0 auto;
-        top: 4px;
+        top: 5px;
     }
 
     .img-left, .img-right, figure img {
