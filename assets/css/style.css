@@ -160,7 +160,7 @@ figure {
     color: #415a77;
 }
 
-.menu:focus + ul {
+.menu:hover + ul {
     opacity: 1;
     visibility: visible;
 }
