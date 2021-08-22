@@ -709,7 +709,7 @@ footer {
     /* Image adjustments */
 
     .img-left, .img-right, figure img {
-        width: 100vw;
+        width: 95vw;
         margin: 0 auto;
     }
 
