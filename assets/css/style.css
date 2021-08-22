@@ -266,6 +266,10 @@ figcaption {
     font-size: 16px;
 }
 
+figcaption a {
+    color: #1b263b;
+}
+
 /* About section */
 
 #about-img {
