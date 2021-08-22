@@ -127,11 +127,15 @@ figure {
 .dropdown ul {
     padding: 0;
     position: absolute;
-    top: 19px;
+    top: 18px;
     opacity: 0;
     transition-delay: all 1s;
     transition: all 0.3s ease-in-out;
     visibility: hidden;
+}
+
+#gallery-drop {
+    border-radius: 0 0 10px 10px;
 }
 
 .dropdown li {
@@ -139,7 +143,7 @@ figure {
     list-style-type: none;
     width: 120px;
     background: linear-gradient(#415a77 0%, #778da9 40%, #778da9 60%, #415a77 100%);
-    line-height: 40px;
+    line-height: 40px;       
 }
 
 .dropdown a {
@@ -228,7 +232,7 @@ figure {
 
 .content-container {
     margin: 0 10%;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .img-right {
@@ -251,6 +255,7 @@ figure {
 
 figcaption {
     position: absolute;
+    font-size: 16px;
 }
 
 /* About section */
@@ -278,22 +283,24 @@ figcaption {
     text-align: center;
 }
 
-.nav-arrow-container p {
-    margin: 0 auto;
-    font-size: 150%;
+.nav-arrows {
+    margin: 30px auto;
+}
+
+.nav-arrows a {
+    font-size: 200%;
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 700;
-    padding: 44px 0;
-}
-
-.nav-arrow-container p a {
     text-decoration: none;
     color: #1b263b;
-    font-size: 200%;
-    text-shadow: 5px 5px 5px darkslategrey;    
+    text-shadow: 5px 5px 5px darkslategrey;
 }
 
-.nav-arrow-container p a:hover {
+.prev-next {
+    font-size: 75%;
+}
+
+.nav-arrows a:hover {
     color: #778da9;
     text-shadow: none;    
 }
@@ -497,7 +504,7 @@ footer {
     }
 
     .content-container h2 {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     
     .img-left, .img-right, figure img {
@@ -557,6 +564,10 @@ footer {
         display: none;
     }
 
+    .nav-logo h2 {
+        margin-left: 20px;
+    }
+
     .small-nav {
         display: block;
     }
@@ -565,7 +576,7 @@ footer {
         margin: 0 10px;
     }
 
-    .next-prev {
+    .prev-next {
         display: none;
     }
 
@@ -592,9 +603,10 @@ footer {
     }
 
     #compass {
-        width: 18px;
-        height: 18px;
+        width: 19px;
+        height: 19px;
         margin: 0 auto;
+        padding-left: 2px;
         top: 5px;
     }
 
@@ -610,7 +622,7 @@ footer {
     }
 
     .content-container h2 {
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     #video {
@@ -639,6 +651,10 @@ footer {
     .hero-image {
         height: 450px;
     }
+    
+    .content-container h2 {
+        text-align: center;
+    }
 }
 
 /* For screen sizes under 370px wide */
@@ -658,10 +674,6 @@ footer {
         margin: 0 auto;
     }
 
-    .content-container h2 {
-        text-align: center;
-    }
-
     .content-container p {
         margin: 0 10px;
     }
@@ -673,10 +685,6 @@ footer {
     #church-img, #geyser-img {
         width: 300px;
         height: 450px;
-    }
-
-    figcaption {
-        font-size: 1rem;
     }
 
     #gallery-container {
