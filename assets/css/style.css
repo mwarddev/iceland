@@ -47,7 +47,7 @@ figure {
    margin-left: 30px;
 }
 
-#compass {
+.compass {
     height: 18px;
     width: 18px;
     position: absolute;
@@ -55,7 +55,7 @@ figure {
     top: 6px;    
 }
 
-#space {
+.space {
     margin-right: 22px;
 }
 
