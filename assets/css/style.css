@@ -214,12 +214,20 @@ body {
     margin: 0% auto;
 }
 
+.layout-white a {
+    color: #1b263b;
+}
+
 .layout-blue {
     width: 100%;
     background-color: #778da9;
     color: black;
     clear: both;
     font-size: 130%;    
+}
+
+.layout-blue a {
+    color: black;
 }
 
 .layout-blue a:visited {
@@ -397,7 +405,6 @@ footer {
 /* Lava fields section */
 
 .clear {
-    width: 100%;
     clear: both;
 }
 
