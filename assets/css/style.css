@@ -448,6 +448,7 @@ footer {
 
 #gallery-container {
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -460,6 +461,7 @@ footer {
 
 #gallery-container a img:hover {
     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     background-color: #778da9;
 }
 

@@ -220,3 +220,31 @@ Navigation arrows are used in the lower page navigation sections and are formed 
 ### Future Features
 * #### Image Carousel
     * A collection of images changeable in a static location on the page. This would go in the Galley page.
+
+## Testing
+* ### Functionality Testing
+    * The site has been tested on several platforms and browsers. All outgoing links work and all open in a new window. All internal navigation works.
+    * There was an issue with the drop down menu on iphones as ios didn't suport the :focus pseudo class i used. I changed this for the :hover pseudo class to fix the bug.
+    * CSS Grid isn't suported by Internet Explorer so the gallery page shows in display block. As IE is pretty much obsolete due to the introduction of Microsoft Edge and is still used by very few users, I decided against a workaround.
+
+* ### Validator Testing
+    * No errors were found when passing through the official 
+        <details>
+        <summary>W3C Validator</summary>
+            
+        * [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Findex.html)
+        * [fire.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Ffire.html)
+        * [ice.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Fice.html)
+        * [gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Fgallery.html)
+        </details>
+    * No errors were found when passing through the official [(jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+        * All pages passed the Google Chrome Lighthouse reports 
+        <details>
+        <summary>Reports</summary>
+
+        * [index report](assets/readme_images/index_lighthouse_report.jpg)
+        * [fire report](assets/readme_images/fire_lighthouse_report.jpg)
+        * [ice report](assets/readme_images/ice_lighthouse_report.jpg)
+        * [gallery report](assets/readme_images/gallery_lighthouse_report.jpg)
+        </details>
+
