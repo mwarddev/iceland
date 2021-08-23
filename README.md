@@ -32,6 +32,9 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
         * [info video](#info-video)
     * [future features](#future-features)
         * [image carousel](#image-carousel)
+* [testing](#testing)
+    * [functionality testing](#functionality-testing)
+    * [validator testing](#validator-testing)
     
 
 ## User Experience (UX)
@@ -231,7 +234,7 @@ Navigation arrows are used in the lower page navigation sections and are formed 
     * No errors were found when passing through the official 
         <details>
         <summary>W3C Validator</summary>
-            
+
         * [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Findex.html)
         * [fire.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Ffire.html)
         * [ice.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Fice.html)
