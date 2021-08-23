@@ -89,7 +89,7 @@ The Scope plane further defines the wants and needs of the user/customer. As suc
 The information gathered in the Strategy and Scope planes is then used to design a site map to allow users to easily navigate the website.
 
 * Landing Page
-    * Nav bar (sticky) with links to the Fire page, Ice page and Gallery page.
+    * Nav bar (fixed) with links to the Fire page, Ice page and Gallery page.
     * Hero image (Glacier) with title and subtile overlay (links to Fire and Ice in subtile).
     * Introduction, about me, purpose of the site, image.
     * Map of iceland.
@@ -99,7 +99,7 @@ The information gathered in the Strategy and Scope planes is then used to design
     * next page button.
     * Footer with social media links.
 * Fire page
-    * Nav bar (sticky) with links to the Landing page, Ice page and Gallery page.
+    * Nav bar (fixed) with links to the Landing page, Ice page and Gallery page.
     * Hero image (erupting volcano) with title overlay.
     * Lava fields section, image.
     * Geysers section, images.
@@ -148,5 +148,61 @@ For paragraph text I went with the recommended pairing of _*Roboto*_ of the _*Sa
 
 Two images of volcano eruptions were sourced from the royalty free website [Unsplash](https://Unsplash.com). The photos were taken by [Tanya Grypachevskaya](https://unsplash.com/@stilltane4ka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) & [Izabela Kraus](https://unsplash.com/@izabelakraus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) respectively.
 One antique map image sourced from the royalty free website [StockSnap](https://stocksnap.io). The photo was taken by [Ylanite Koppens](https://stocksnap.io/author/ylanitekoppens).
+All sourced images are cited in captions under the respective images througout the site.
 
 All other images were taken by myself on location.
+
+#### Iconography
+
+The Compass image ![Compass image](assets/readme_images/compass_icon.png) used in the website logo and as the tab icon was sourced from the royalty free site [www.flaticon.com](https://www.flaticon.com/) and was made by [Smashicons](https://smashicons.com/) who are cited in the attributes section in th footer of each page.
+
+The social media icons ![Social media icons](assets/readme_images/social_media_icons.jpg) in the footer section of each page and the hamburger menu icon ![Navbar_medium](assets/readme_images/navbar_medium.jpg) for smaller screens were sourced from the royalty free site [fontawesome.com](https://fontawesome.com/).
+
+Navigation arrows are used in the lower page navigation sections and are formed with HTML symbol codes.
+
+## Features
+
+### Existing Features
+
+* #### Navigation Bar
+    * The navigation bar is fixed to the top of each page and is only 40 pixels high so doesn't cover much content.
+    * As the screen width decreases the destination title is removed, then the navigation menu changes to a hamburger menu and finally the site logo decreases in size.
+    * Both the logo and the destination title are links to the landing page. The navigation menu links to all pages and the active page is noted by the page name changing a lighter colour blue. 
+
+    ![Navbar largest](assets/readme_images/navbar_largest.jpg)
+    ![Navbar large](assets/readme_images/navbar_large.jpg)
+    ![Navbar medium](assets/readme_images/navbar_medium.jpg)
+    ![Navbar small](assets/readme_images/navbar_small.jpg)
+
+* #### Hero Image and Headings
+    * 3 of the 4 pages have a hero image at the top of the page, the landing page, fire page and ice page. Each of the images has heading overlay.
+    * The landing page title Iceland, The Land of Fire And Ice has a link to the fire and ice page respectively if the words fire or ice are clicked.
+
+    ![Hero Image](assets/readme_images/hero_image.jpg)
+
+* #### Lower Navigation
+    * Each page has navigation arrows at the bottom of the page just above the footer. These arrows will take the user to the previous or next page.
+    * The text and arrows contain text shadow and when hovered, the shadow is removed to give the illusion of being pressed and the text colour changes.
+    * Smaller screen sizes just have arrows.
+
+    ![Lower Navigation](assets/readme_images/lower_nav.jpg)  
+
+* #### Footer
+    * The footer section of each page contains an attributes section, citing aknowledgement for iconography and information source, a social media section linking to other relevant sites and a copyright section.
+
+    ![Footer](assets/readme_images/footer.jpg)
+
+* #### Image Gallery
+    * The Gallery page contains an image gallery section showcasing other images relevant to the site.
+    * On hover the image turns greyscale and clicking an image opens it in a new window.
+
+    ![Image Gallery](assets/readme_images/image_gallery.jpg)
+
+* #### Info Video
+    * There is an information youtube video about Iceland embedded in an iframe under the gallery section. The video doesn't auto-play but, being an iframe, it isn't muted.
+
+    ![Info Video](assets/readme_images/info_video.jpg)
+
+### Future Features
+* #### Image Carousel
+    * A collection of images changeable in a static location on the page. This would go in the Galley page.
