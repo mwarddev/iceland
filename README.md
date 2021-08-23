@@ -3,6 +3,10 @@
 
 This site is a travel blog of my experiences whilst touring the south of Iceland. The purpose of the site is to inspire more people to visit the island or provide information for those already wishing to visit. The site provides information relating to locations I visited and images of the locations and events I witnessed.
 
+![Responsive image](assets/readme_images/responsive.jpg)
+
+[View the live site here.](https://mwarddev.github.io/iceland/index.html)
+
 ## Contents
 
 * [Introduction](#iceland)
@@ -143,4 +147,6 @@ For paragraph text I went with the recommended pairing of _*Roboto*_ of the _*Sa
 #### Imagery
 
 Two images of volcano eruptions were sourced from the royalty free website [Unsplash](https://Unsplash.com). The photos were taken by [Tanya Grypachevskaya](https://unsplash.com/@stilltane4ka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) & [Izabela Kraus](https://unsplash.com/@izabelakraus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) respectively.
+One antique map image sourced from the royalty free website [StockSnap](https://stocksnap.io). The photo was taken by [Ylanite Koppens](https://stocksnap.io/author/ylanitekoppens).
+
 All other images were taken by myself on location.
