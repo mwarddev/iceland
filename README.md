@@ -34,6 +34,7 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
         * [image carousel](#image-carousel)
 * [testing](#testing)
     * [functionality and usability testing](#functionality-and-usability-testing)
+    * [focus group testing](#focus-group-testing)
     * [validator testing](#validator-testing)
     
 
@@ -225,11 +226,16 @@ Navigation arrows are used in the lower page navigation sections and are formed 
     * A collection of images changeable in a static location on the page. This would go in the Galley page.
 
 ## Testing
-* ### Functionality and usability Testing
-    * The site has been tested on several platforms and browsers. All outgoing links work and all open in a new window. All internal navigation works.
-    * There was an issue with the drop down menu on iphones as ios didn't suport the :focus pseudo class i used. I changed this for the :hover pseudo class to fix the bug.
+* ### Functionality and Usability Testing
+    * The site has been tested on several platforms and browsers. All outgoing links work and all open in a new window. All internal navigation works.    
     * CSS Grid isn't suported by Internet Explorer so the gallery page shows in display block. As IE is pretty much obsolete due to the introduction of Microsoft Edge and is still used by very few users, I decided against a workaround.
     * The site has been read with a screen reader and all aria labels and alt text work ok. The screen reader also highlighted a few spelling mistakes which have been corrected.
+
+* ### Focus Group Testing
+    * A small group of family and friends tested the live site on a variety of different devices to test for compatability.
+    * There was an issue with the drop down menu on iphones as ios didn't suport the :focus pseudo class i used. I changed this for the :hover pseudo class to fix the bug.
+    * Logo alignment was raised and corrected as was content spacing and text alignment.
+    * Suggestions for messages on gallery page to improve UX taken onboard and implemented.
 
 * ### Validator Testing
     * No errors were found when passing through the official 
