@@ -446,6 +446,11 @@ footer {
     width: 100%;
 }
 
+#gallery p {
+    text-align: center;
+    /* margin-bottom: 0; */
+}
+
 #gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -474,6 +479,11 @@ footer {
     display: block;
     margin: 0 auto;
     border: none;
+}
+
+#video-message {
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 /* media queries */
