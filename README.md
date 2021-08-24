@@ -18,24 +18,27 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
     * [Structure](#structure)
     * [Skeleton](#skeleton)
     * [Surface](#surface)
-        * [colour palette](#colour-palette)
-        * [typography](#typography)
-        * [imagery](#imagery)
-        * [iconography](#iconography)
-* [features](#features)
-    * [existing features](#existing-features)
-        * [navigation bar](#navigation-bar)
-        * [hero image and headings](#hero-image-and-headings)
-        * [lower navigation](#lower-navigation)
-        * [footer](#footer)
-        * [image gallery](#image-gallery)
-        * [info video](#info-video)
-    * [future features](#future-features)
-        * [image carousel](#image-carousel)
-* [testing](#testing)
-    * [functionality and usability testing](#functionality-and-usability-testing)
-    * [focus group testing](#focus-group-testing)
-    * [validator testing](#validator-testing)
+        * [Colour Palette](#colour-palette)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+        * [Iconography](#iconography)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+        * [Navigation Bar](#navigation-bar)
+        * [Hero Image and Headings](#hero-image-and-headings)
+        * [Lower Navigation](#lower-navigation)
+        * [Footer](#footer)
+        * [Image Gallery](#image-gallery)
+        * [Info Video](#info-video)
+    * [Future Features](#future-features)
+        * [Image Carousel](#image-carousel)
+* [Testing](#testing)
+    * [Functionality and Usability Testing](#functionality-and-usability-testing)
+    * [Focus Group Testing](#focus-group-testing)
+    * [Validator Testing](#validator-testing)
+    * [Unfixed Bugs](#unfixed-bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
     
 
 ## User Experience (UX)
@@ -227,8 +230,7 @@ Navigation arrows are used in the lower page navigation sections and are formed 
 
 ## Testing
 * ### Functionality and Usability Testing
-    * The site has been tested on several platforms and browsers. All outgoing links work and all open in a new window. All internal navigation works.    
-    * CSS Grid isn't suported by Internet Explorer so the gallery page shows in display block. As IE is pretty much obsolete due to the introduction of Microsoft Edge and is still used by very few users, I decided against a workaround.
+    * The site has been tested on several platforms and browsers. All outgoing links work and all open in a new window. All internal navigation works.
     * The site has been read with a screen reader and all aria labels and alt text work ok. The screen reader also highlighted a few spelling mistakes which have been corrected.
 
 * ### Focus Group Testing
@@ -257,4 +259,23 @@ Navigation arrows are used in the lower page navigation sections and are formed 
         * [ice report](assets/readme_images/ice_lighthouse_report.jpg)
         * [gallery report](assets/readme_images/gallery_lighthouse_report.jpg)
         </details>
+
+## Unfixed Bugs
+
+* CSS Grid isn't suported by Internet Explorer so the gallery page shows in display block. As IE is pretty much obsolete due to the introduction of Microsoft Edge and is still used by very few users, I decided against a workaround.
+
+## Deployment
+
+* The site was deployed to Github pages using the following steps:
+    * In the Github repository, navigate to the settings tab.
+    * Scroll down and select Pages from the left side navigation menu to open Github pages.
+    * In the Source section, click on the dropdown menu and select the Master branch.
+    * Once the Master branch is selected the page will refresh to display a message stating "your site is published at [https://mwarddev.github.io/iceland/](https://mwarddev.github.io/iceland/)"
+
+## Credits
+
+
+
+
+
 
