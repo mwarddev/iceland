@@ -25,9 +25,12 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
 * [Features](#features)
     * [Existing Features](#existing-features)
         * [Navigation Bar](#navigation-bar)
+        * [Landing Page](#landing-page)
         * [Hero Image and Headings](#hero-image-and-headings)
         * [Lower Navigation](#lower-navigation)
         * [Footer](#footer)
+        * [Fire Page](#fire-page)
+        * [Ice Page](#ice-page)
         * [Image Gallery](#image-gallery)
         * [Info Video](#info-video)
     * [Future Features](#future-features)
@@ -200,6 +203,12 @@ Navigation arrows are used in the lower page navigation sections and are formed 
     ![Navbar small](assets/readme_images/navbar_small.jpg)
     * This feature allows the user to easily navigate to any page of the site at any time.
 
+* #### Landing Page
+    * The landing page starts with a description about what the site is about and why it has been made. The page then carries on with a brief history of Iceland and general information about attractions and points of interest. Each new subject is separated with alternating background colours to easily distinguish between sections.
+    This allows the user to easily find the content they're loking for.
+
+    ![Landing Image](assets/readme_images/landing.jpg)  
+
 * #### Hero Image and Headings
     * 3 of the 4 pages have a hero image at the top of the page, the landing page, fire page and ice page. Each of the images has a heading overlay.
     * The landing page title Iceland, The Land of Fire And Ice has a link to the fire and ice page respectively if the words fire or ice are clicked.
@@ -220,6 +229,16 @@ Navigation arrows are used in the lower page navigation sections and are formed 
 
     ![Footer](assets/readme_images/footer.jpg)
     * This feature provides information and related content.
+
+* #### Fire Page
+    * The fire page discusses all of Iceland's geothermic elements from volcanoes to hotsprings. Many of these elements are major attractions in Iceland and the details make for an interesting read.
+
+    ![Fire Page](assets/readme_images/fire_page.jpg)
+
+* #### Ice Page
+    * The ice page is the opposite to the fire page and discusses all of Iceland's glacial elements. Again, these are major tourist attractions in Iceland and attract visitors from all over the world.
+
+    ![Ice Page](assets/readme_images/ice_page.jpg) 
 
 * #### Image Gallery
     * The Gallery page contains an image gallery section showcasing other images relevant to the site.
