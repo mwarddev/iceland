@@ -201,7 +201,7 @@ Navigation arrows are used in the lower page navigation sections and are formed 
     * This feature allows the user to easily navigate to any page of the site at any time.
 
 * #### Hero Image and Headings
-    * 3 of the 4 pages have a hero image at the top of the page, the landing page, fire page and ice page. Each of the images has heading overlay.
+    * 3 of the 4 pages have a hero image at the top of the page, the landing page, fire page and ice page. Each of the images has a heading overlay.
     * The landing page title Iceland, The Land of Fire And Ice has a link to the fire and ice page respectively if the words fire or ice are clicked.
 
     ![Hero Image](assets/readme_images/hero_image.jpg)
@@ -245,7 +245,7 @@ Navigation arrows are used in the lower page navigation sections and are formed 
 
 * ### Focus Group Testing
     * A small group of family and friends tested the live site on a variety of different devices to test for compatability.
-    * There was an issue with the drop down menu on iphones as ios didn't suport the :focus pseudo class i used. I changed this for the :hover pseudo class to fix the bug.
+    * There was an issue with the drop down menu on Iphones as IOS didn't suport the :focus pseudo class I used. I changed this for the :hover pseudo class to fix the bug.
     * Logo alignment was raised and corrected as was content spacing and text alignment.
     * Suggestions for messages on gallery page to improve UX taken onboard and implemented.
 
@@ -272,7 +272,7 @@ Navigation arrows are used in the lower page navigation sections and are formed 
 
 ## Unfixed Bugs
 
-* CSS Grid isn't suported by Internet Explorer so the gallery page shows in display block. As IE is pretty much obsolete due to the introduction of Microsoft Edge and is still used by very few users, I decided against a workaround.
+* CSS Grid isn't suported by Internet Explorer so the gallery page shows as display block. As IE is pretty much obsolete due to the introduction of Microsoft Edge and is still used by very few users, I decided against a workaround.
 
 ## Deployment
 
