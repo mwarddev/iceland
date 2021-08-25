@@ -39,6 +39,10 @@ This site is a travel blog of my experiences whilst touring the south of Iceland
     * [Unfixed Bugs](#unfixed-bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Code](#code)
+    * [Focus Group](#focus-group)
     
 
 ## User Experience (UX)
@@ -135,7 +139,7 @@ The information gathered in the Strategy and Scope planes is then used to design
     * Footer with social media links.
 * Gallery page
     * Nav bar with links to the Landing page, Fire page and Ice page.
-    * Slide show of images.
+    * Slide show of images (This wasn't implemented in the end product).
     * Static images section.
     * Related video/s
     * Previous page button.
@@ -266,13 +270,49 @@ Navigation arrows are used in the lower page navigation sections and are formed 
 
 ## Deployment
 
-* The site was deployed to Github pages using the following steps:
-    * In the Github repository, navigate to the settings tab.
-    * Scroll down and select Pages from the left side navigation menu to open Github pages.
-    * In the Source section, click on the dropdown menu and select the Master branch.
-    * Once the Master branch is selected the page will refresh to display a message stating "your site is published at [https://mwarddev.github.io/iceland/](https://mwarddev.github.io/iceland/)"
+The site was deployed to Github pages using the following steps:
+* In the Github repository, navigate to the settings tab.
+* Scroll down and select Pages from the left side navigation menu to open Github pages.
+* In the Source section, click on the dropdown menu and select the Master branch.
+* Once the Master branch is selected the page will refresh to display a message stating "your site is published at [https://mwarddev.github.io/iceland/](https://mwarddev.github.io/iceland/)"
 
 ## Credits
+
+### Content
+* Text was written by myself utilising facts passed on from the tour guide of [Jules Vern Travel Agency](https://www.vjv.com). This is cited in the footer of every page in the Attributes section.
+* Links to relevant sites are posted throughout the site. These are:
+    * [www.earthtrekkers.com](https://www.earthtrekkers.com/10-day-iceland-ring-road-itinerary/)
+    * [www.findingtheuniverse.com](https://www.findingtheuniverse.com/iceland-ring-road-itinerary/)
+    * [www.tripadvisor.com](https://www.tripadvisor.co.uk/Attractions-g189952-Activities-c49-Iceland.html)
+    * [en.vedur.is](https://en.vedur.is/weather/forecasts/aurora/#type=total)
+    * [fullsuitcase.com](https://fullsuitcase.com/photograph-northern-lights-beginners/)
+
+### Media
+* Almost all images were supplied by myself and taken on location.
+* Three images were sourced from royalty free sites [StockSnap.io](https://stocksnap.io) and [Unsplash.com](https://unsplash.com/s/photos/iceland-volcano?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText). Both the site and photographer are cited in figcapitions under each image.
+* The video on the gallery page was sourced from [Youtube.com](https://www.youtube.com) and posted by [Guide to Iceland](https://www.youtube.com/channel/UC-8RFAZFxKGXZlgp9jc2jRw)
+* The social media links in the footer link to:
+    * [https://www.instagram.com/iceland.explore](https://www.instagram.com/iceland.explore/)
+    * [en-gb.facebook.com/guidetoiceland.is/](https://en-gb.facebook.com/guidetoiceland.is/)
+    * [Youtube Expedia video](https://www.instagram.com/iceland.explore)
+    * [https://www.tripadvisor.co.uk/Tourism-g189952-Iceland-Vacations.html](https://www.tripadvisor.co.uk/Tourism-g189952-Iceland-Vacations.html)
+
+### Code
+* All code was written by myself and was learnt from [www.codeinstitute.net](https://www.codeinstitute.net) or [www.sololearn.com](https://www.sololearn.com).
+* Inspiration was taken from Dev Ed's drop down menu tutorial on [Youtube](https://www.youtube.com/watch?v=o0YiZF9XZL0) for the mechanics behind my hamburger menu (small section of code) but this didn't work on IOS so I modified it to make it work.
+* Inspiration for the hero images was taken from the Love Running Walkthrough project from [www.codeinstitute.net](https://www.codeinstitute.net).
+* Icons for the footer were taken from [FontAwesome](https://fontawesome.com/) and is cited in the attributes section of the footer.
+* The icon used in the logo and the tab was made by [Smashicons](https://smashicons.com/) and taken from the hoasting site [www.flaticon.com](https://www.flaticon.com/).
+* I referenced the site [css-tricks.com](https://css-tricks.com/) to learn how to use Flexbox and CSS Grid.
+
+### Focus Group
+* I'd like to thank the following people for the help they gave me with this project:
+    * My wife for proof reading content, offering content related suggestions and beta testing the live site.
+    * Heather for proof reading content, offering content, UX and grammatical related suggestions, beta testing the live site and spotting bugs.
+    * Dalton for beta testing the live site and reporting the IOS menu bug and some alignment issues.
+    * Sean for beta testing the live site.
+    * John for beta testing the live site.
+
 
 
 
