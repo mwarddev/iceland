@@ -198,35 +198,41 @@ Navigation arrows are used in the lower page navigation sections and are formed 
     ![Navbar large](assets/readme_images/navbar_large.jpg)
     ![Navbar medium](assets/readme_images/navbar_medium.jpg)
     ![Navbar small](assets/readme_images/navbar_small.jpg)
+    * This feature allows the user to easily navigate to any page of the site at any time.
 
 * #### Hero Image and Headings
     * 3 of the 4 pages have a hero image at the top of the page, the landing page, fire page and ice page. Each of the images has heading overlay.
     * The landing page title Iceland, The Land of Fire And Ice has a link to the fire and ice page respectively if the words fire or ice are clicked.
 
     ![Hero Image](assets/readme_images/hero_image.jpg)
+    * This feature draws the user in and makes the page easily identifiable.
 
 * #### Lower Navigation
     * Each page has navigation arrows at the bottom of the page just above the footer. These arrows will take the user to the previous or next page.
     * The text and arrows contain text shadow and when hovered, the shadow is removed to give the illusion of being pressed and the text colour changes.
     * Smaller screen sizes just have arrows.
 
-    ![Lower Navigation](assets/readme_images/lower_nav.jpg)  
+    ![Lower Navigation](assets/readme_images/lower_nav.jpg)
+    * This feature allows for natural continuity of the user experience. Once at the bottom of the page a quick click will take them to the next page.  
 
 * #### Footer
     * The footer section of each page contains an attributes section, citing aknowledgement for iconography and information source, a social media section linking to other relevant sites and a copyright section.
 
     ![Footer](assets/readme_images/footer.jpg)
+    * This feature provides information and related content.
 
 * #### Image Gallery
     * The Gallery page contains an image gallery section showcasing other images relevant to the site.
     * On hover the image turns greyscale and clicking an image opens it in a new window.
 
     ![Image Gallery](assets/readme_images/image_gallery.jpg)
+    * This feature showcases the natural wonders of Iceland.
 
 * #### Info Video
     * There is an information youtube video about Iceland embedded in an iframe under the gallery section. The video doesn't auto-play but, being an iframe, it isn't muted.
 
     ![Info Video](assets/readme_images/info_video.jpg)
+    * This feature makes the site a little more immersive and adds to the interactivity of the site.
 
 ### Future Features
 * #### Image Carousel
