@@ -115,7 +115,7 @@ The information gathered in the Strategy and Scope planes is then used to design
 
 * Landing Page
     * Nav bar (fixed) with links to the Fire page, Ice page and Gallery page.
-    * Hero image (Glacier) with title and subtile overlay (links to Fire and Ice in subtile).
+    * Hero image (Glacier) with title and subtitle overlay (links to Fire and Ice in subtitle).
     * Introduction, about me, purpose of the site, image.
     * Map of iceland.
     * Brief history of icelandic heritage, image/s.
@@ -173,13 +173,13 @@ For paragraph text I went with the recommended pairing of _*Roboto*_ of the _*Sa
 
 Two images of volcano eruptions were sourced from the royalty free website [Unsplash](https://Unsplash.com). The photos were taken by [Tanya Grypachevskaya](https://unsplash.com/@stilltane4ka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) & [Izabela Kraus](https://unsplash.com/@izabelakraus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) respectively.
 One antique map image sourced from the royalty free website [StockSnap](https://stocksnap.io). The photo was taken by [Ylanite Koppens](https://stocksnap.io/author/ylanitekoppens).
-All sourced images are cited in captions under the respective images througout the site.
+All sourced images are cited in captions under the respective images throughout the site.
 
 All other images were taken by myself on location.
 
 #### Iconography
 
-The Compass image ![Compass image](assets/readme_images/compass_icon.png) used in the website logo and as the tab icon was sourced from the royalty free site [www.flaticon.com](https://www.flaticon.com/) and was made by [Smashicons](https://smashicons.com/) who are cited in the attributes section in th footer of each page.
+The Compass image ![Compass image](assets/readme_images/compass_icon.png) used in the website logo and as the tab icon was sourced from the royalty free site [www.flaticon.com](https://www.flaticon.com/) and was made by [Smashicons](https://smashicons.com/) who are cited in the attributes section in the footer of each page.
 
 The social media icons ![Social media icons](assets/readme_images/social_media_icons.jpg) in the footer section of each page and the hamburger menu icon ![Navbar_medium](assets/readme_images/navbar_medium.jpg) for smaller screens were sourced from the royalty free site [fontawesome.com](https://fontawesome.com/).
 
@@ -236,7 +236,7 @@ Navigation arrows are used in the lower page navigation sections and are formed 
 
 ### Future Features
 * #### Image Carousel
-    * A collection of images changeable in a static location on the page. This would go in the Galley page.
+    * A collection of images changeable in a static location on the page. This would go in the Gallery page.
 
 ## Testing
 * ### Functionality and Usability Testing
