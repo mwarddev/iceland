@@ -279,11 +279,12 @@ Navigation arrows are used in the lower page navigation sections and are formed 
         * [gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Fgallery.html)
         </details>
     * No errors were found when passing through the official [(jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmwarddev.github.io%2Ficeland%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-        * All pages passed the Google Chrome Lighthouse reports 
+        * All pages passed the Google Chrome Lighthouse reports
+        ![index report](assets/readme_images/index_lighthouse_report.jpg)
+
         <details>
         <summary>Reports</summary>
 
-        * [index report](assets/readme_images/index_lighthouse_report.jpg)
         * [fire report](assets/readme_images/fire_lighthouse_report.jpg)
         * [ice report](assets/readme_images/ice_lighthouse_report.jpg)
         * [gallery report](assets/readme_images/gallery_lighthouse_report.jpg)
