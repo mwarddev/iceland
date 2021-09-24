@@ -17,7 +17,8 @@
     <header>
         <div class="navbar">
             <a href="index.html" aria-label="Link returns to the top of the Home page" class="nav-logo">
-                <h2>Bucket List Travel Blog <img id="compass" src="assets/images/compass_icon.png" alt="Compass icon"></h2>
+                <h2 id="big-logo">Bucket List Travel Bl<img class="compass" src="assets/images/compass_icon.png" alt="Compass icon"><span class="space"></span>g</h2>
+                <h2 id="small-logo">BL<img class="compass" src="assets/images/compass_icon.png" alt="Compass icon"><span class="space"></span>G</h2>
             </a>
             <a href="index.html" aria-label="Link returns to the top of the Home page" class="nav-destination">
                 <h2>Iceland</h2>
@@ -38,6 +39,27 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- Drop down menu for smaller screens -->
+            <nav class="small-nav">
+                <div class="dropdown"> 
+                    <a class="menu" href="#" aria-label="Click/tap to open drop down navigation menu."><i class="fas fa-bars"></i></a>  
+                    <ul>                    
+                        <li class="active">
+                            <a href="index.html" aria-label="Link returns to the top of the Home page">Home</a>                     
+                        </li>
+                        <li>
+                            <a href="fire.html" aria-label="Link navigates to the Fire page">Fire</a>
+                        </li>
+                        <li>
+                            <a href="ice.html" aria-label="Link to the Ice page">Ice</a>
+                        </li>
+                        <li id="gallery-drop">
+                            <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>        
     </header>
 
@@ -52,10 +74,8 @@
 
     <!-- About section -->
     <section class="layout-white">
-        <div id="about-img-container">            
-            <img id="about-img" src="assets/images/me.jpg" alt="Me in front of a waterfall in Iceland">
-        </div>
-        <div id="about-text-container">            
+        <div class="content-container">            
+            <img class="img-left" id="about-img" src="assets/images/me.jpg" alt="Me in front of a waterfall in Iceland">
             <h2>About</h2>
             <p>In 2018 my wife and I took a tour of Iceland for our honeymoon. Whereas most would choose to honeymoon on a beach, we decided to cross off an item on our bucket list and set off for Iceland in search of the majestic Aurora Borealis.</p>
             <p>Iceland is one of the most interesting and beautiful places we have visited, due to its diversity of volcanoes and glaciers, it truly is the land of Fire and Ice.</p>
@@ -74,9 +94,9 @@
             <p>Our travel company recommended visiting Iceland during November for the best chances of seeing the Aurora Borealis. So, as first-time visitors to the country, we prepared for what we thought would be a winter wonderland. As we found out, this isn’t actually the case. Although Iceland just touches the Arctic Circle, the island is situated in the path of the warmer air of the Jet Stream and has similar weather patterns to the UK. This being said, a thermal underlayer and a warm coat is recommended clothing for that time of the year due to the bitter (and surprisingly strong) winds coming in off the North Sea.</p>
             <p>There are very few inhabitants of Iceland, only around 357,000 people live there and a large percentage live in the island’s capital city Reykjavik. This is because the centre of the island is pretty much uninhabitable due to volcanoes, glaciers, geysers and hot springs. The remainder of the inhabitants live around the coastline. For these reasons there is one main ring road (or Route 1) around the island, which poses a problem if there’s an accident or if a bridge is taken out by flood water from a glacier as the detour would take a day to complete. If you wish to drive the route, most people recommend taking 8 to 10 days to complete it to take in all the sights.</p>
             <p>These sites offer more information:</p>
-            <a href="https://www.earthtrekkers.com/10-day-iceland-ring-road-itinerary/" target="_blank" rel="noopener" aria-label="Link to www.earthtrekkers.com with a 10 day itinerary for drivinng around Iceland's ring road (opens in a new window)">https://www.earthtrekkers.com/10-day-iceland-ring-road-itinerary/</a>
+            <a class="anchor-align" href="https://www.earthtrekkers.com/10-day-iceland-ring-road-itinerary/" target="_blank" rel="noopener" aria-label="Link to www.earthtrekkers.com with a 10 day itinerary for drivinng around Iceland's ring road (opens in a new window)">www.earthtrekkers.com</a>
             <br>
-            <a href="https://www.findingtheuniverse.com/iceland-ring-road-itinerary/" target="_blank" rel="noopener" aria-label="Link to www.findingtheuniverse.com with an itinerary for driving around Iceland's ring road (opens in a new window)">https://www.findingtheuniverse.com/iceland-ring-road-itinerary/</a>
+            <a class="anchor-align" href="https://www.findingtheuniverse.com/iceland-ring-road-itinerary/" target="_blank" rel="noopener" aria-label="Link to www.findingtheuniverse.com with an itinerary for driving around Iceland's ring road (opens in a new window)">www.findingtheuniverse.com</a>
         </div>
     </section>
 
@@ -85,8 +105,8 @@
         <div class="content-container">
             <img class="img-left" src="assets/images/grass_covered_house.jpg" alt="A turf covered house with stone doorway and a modern turf covered house behind.">
             <h2>Icelandic Heritage</h2>
-            <p>In many places you travel to in Iceland the history of the Icelandic people is very apparent and well preserved. You can see evidence of their Viking heritage in turf covered structures. These structures were built by Nordic settlers due to the massive deforestation of the island and lack of other building materials. The turf, however, is an excellent insulator and helped the settlers survive Iceland’s harsh climate. Looking around inside you’ll find the beds are extremely small, this wasn’t because Icelandic settlers were short, it was because they slept in a sitting position. Our tour guid told us it was because they believed they would die if they slept laying down but this is just a theory.</p>
-            <P>There are many museums to visit where you can learn more about the history and folklore of the island, from Vikings to Trolls and Elves. <br> More information can be found <a href="https://www.tripadvisor.co.uk/Attractions-g189952-Activities-c49-Iceland.html " target="_blank" rel="noopener" aria-label="Link to tripadvisor.co.uk for a list of attractions and activities in Iceland (opens in a new window)">here.</a></P>
+            <p>In many places you travel to in Iceland the history of the Icelandic people is very apparent and well preserved. You can see evidence of their Viking heritage in turf covered structures. These structures were built by Nordic settlers due to the massive deforestation of the island and lack of other building materials. The turf, however, is an excellent insulator and helped the settlers survive Iceland’s harsh climate. Looking around inside you’ll find the beds are extremely small, this wasn’t because Icelandic settlers were short, it was because they slept in a sitting position. Our tour guide told us it was because they believed they would die if they slept laying down but this is just a theory.</p>
+            <P>There are many museums to visit where you can learn more about the history and folklore of the island, from Vikings to Trolls and Elves. <br> More information can be found <a href="https://www.tripadvisor.co.uk/Attractions-g189952-Activities-c49-Iceland.html" target="_blank" rel="noopener" aria-label="Link to tripadvisor.co.uk for a list of attractions and activities in Iceland (opens in a new window)">here.</a></P>
         </div>
     </section>
 
@@ -96,8 +116,7 @@
             <img class="img-right" src="assets/images/aurora_borealis.jpg" alt="Green Aurora Borealis in the night sky">
             <h2>Aurora Borealis</h2>
             <p>Most people think they can travel to Iceland and are guaranteed to see the Aurora Borealis, unfortunately this Is not the case. Although Iceland is one of the best places in the world to see the Aurora, there are other factors to take into consideration. The Aurora Borealis or Northern Lights are the result of solar winds disrupting the magnetic fields of the Earth’s poles. This means the strength of the Aurora is governed by solar activity.</p>
-            <P>Fortunately, there are things you can do to make sure you don’t miss it if it does happen. I used an Aurora tracker to gauge when best to try to see the lights. This will tell you how much cloud cover there is and how strong the Aurora is predicted to be, the stronger it is the easier it is to see with the naked eye and the more colours you can see.</P>
-            <a href="https://en.vedur.is/weather/forecasts/aurora/#type=total" target="_blank" rel="noopener" aria-label="Link to an Aurora tracker in Iceland (opens in a new window)">https://en.vedur.is/weather/forecasts/aurora/#type=total</a>
+            <P>Fortunately, there are things you can do to make sure you don’t miss it if it does happen. I used an <a href="https://en.vedur.is/weather/forecasts/aurora/#type=total" target="_blank" rel="noopener" aria-label="Link to an Aurora tracker in Iceland (opens in a new window)">Aurora tracker</a> to gauge when best to try to see the lights. This will tell you how much cloud cover there is and how strong the Aurora is predicted to be, the stronger it is the easier it is to see with the naked eye and the more colours you can see.</P>
             <p>It’s a good idea to make use of a DSLR camera. If the Aurora is weak the camera will be able to pick out the colours better than your eyes. The images I captured looked like odd shaped clouds until taken with a long exposure shot from a DSLR (hence the elongated stars). I still had to bring the colours out more in post editing. <br>More info on how to capture the Aurora Borealis can be found <a href="https://fullsuitcase.com/photograph-northern-lights-beginners/" target="_blank" rel="noopener" aria-label="Link to a fullsuitcase.com for a guide to photographing the Aurora Borealis (opens in a new window)">here.</a></p>
             <p>While we were in Reykjavik we paid for an excursion to go to a national park one night to escape the light pollution of the city. This turned out to be a waste of time and money. I would recommend only doing this if the Aurora tracker predicts high activity.</p>
             <p>Most hotels will offer a room call service if you wish to be woken if an Aurora is spotted. This is how I was able to get the above shot. Unfortunately for my wife, I had already been outside with my camera pointed at the sky for a couple of hours earlier that night and for a few nights before that. Bearing in mind it was our honeymoon, I’m surprised she’s still my wife.</p>
@@ -120,19 +139,18 @@
             <h2>Reykjavik</h2>
             <p>Reykjavik is home to the vast majority of Icelanders and, due to being a premier tourist destination, has become fairly commercialised. You can find anything from an English themed bar to a Hard Rock Café or even a Chuck Norris Bar & Grill. But if you look beyond commercial services & retail you’ll find the odd bit of Iceland shining through. One of the most iconic structures in Reykjavik is the Hallgrímskirkja church. Inspired by the basalt columns formed by lava flow found in various locations around the island, the Lutheran church’s spire is the tallest in Reykjavik. </p>
             <p>Strolling around Reykjavik is a pleasant experience, you’ll find museums and the odd art exhibit dotted around the city but most use the city as a base from which to travel to other places of interest.</p>
-            <div class="extra-img-container">
-                <img id="statue-img" src="assets/images/statue.jpg" alt="An unfinished statue showing the legs of a business man with a briefcase, the upper body is a rough block of stone.">
-                <img id="english-bar-img" src="assets/images/english_bar.jpg" alt="An english themed bar">
-                <img id="christmas-img"src="assets/images/christmas_lights.jpg" alt="Christmas lights street display in the shape of a large cat">                
-            </div>
             <div class="clear"></div>                
         </div>        
     </section>
-    <section class="layout-white">
+
+    <!-- Arrow navigation -->
+    <div class="layout-white">
         <div class="nav-arrow-container">
-            <p>NEXT PAGE <a href="fire.html" aria-label="Link to the Fire page">&#x2192;</a></p>            
+            <div class="nav-arrows">
+                <a href="fire.html" aria-label="Link to the Fire page"><span class="prev-next">NEXT PAGE </span>&#x2192;</a>
+            </div>            
         </div>
-    </section>
+    </div>
 
     <!-- Footer attributes and social media links -->
     <footer>
@@ -140,10 +158,10 @@
             <h3>Attributes</h3>
             <ul>            
                 <li>
-                    <b>Iconography</b><br>Page logo icon made by<br><a href="https://smashicons.com/" title="Smashicons" target="_blank" rel="noopener" aria-label="Link to smashicons.com, the makers of the page logo icon (opens in a new window)">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener" aria-label="Link to flaticon.com, the hosting site for the page logo icon (opens in a new window)">www.flaticon.com</a><br>Social media icons made by<br><a href="https://www.fontawesome.com" target="_blank" rel="noopener" aria-label="Link to fontawesome.com, the makers of the social media link icons (opens in a new window)">www.fontawesome.com</a>
+                    <h4>Iconography</h4><br>Page logo icon made by<br><a href="https://smashicons.com/" title="Smashicons" target="_blank" rel="noopener" aria-label="Link to smashicons.com, the makers of the page logo icon (opens in a new window)">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener" aria-label="Link to flaticon.com, the hosting site for the page logo icon (opens in a new window)">www.flaticon.com</a><br>Social media icons made by<br><a href="https://www.fontawesome.com" target="_blank" rel="noopener" aria-label="Link to fontawesome.com, the makers of the social media link icons (opens in a new window)">www.fontawesome.com</a>
                 </li>            
                 <li>
-                    <b>Facts</b><br>All factual information came from<br>our tour guide of <a href="https://www.vjv.com" target="_blank" rel="noopener" aria-label="Link to vjv.com, the Jules Vern Travel Agent website we booked our trip with (opens in a new window)">Jules Vern Tours</a>
+                    <h4>Facts</h4><br>All factual information came from<br>our tour guide of <a href="https://www.vjv.com" target="_blank" rel="noopener" aria-label="Link to vjv.com, the Jules Vern Travel Agent website we booked our trip with (opens in a new window)">Jules Vern Tours</a>
                 </li>
             </ul>
         </div>

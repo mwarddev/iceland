@@ -17,7 +17,8 @@
     <header>
         <div class="navbar">
             <a href="index.html" aria-label="Link returns to the Home page" class="nav-logo">
-                <h2>Bucket List Travel Blog <img id="compass" src="assets/images/compass_icon.png" alt="Compass icon"></h2>
+                <h2 id="big-logo">Bucket List Travel Bl<img class="compass" src="assets/images/compass_icon.png" alt="Compass icon"><span class="space"></span>g</h2>
+                <h2 id="small-logo">BL<img class="compass" src="assets/images/compass_icon.png" alt="Compass icon"><span class="space"></span>G</h2>
             </a>
             <a href="index.html" aria-label="Link returns to the Home page" class="nav-destination">
                 <h2>Iceland</h2>
@@ -37,6 +38,27 @@
                         <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
                     </li>
                 </ul>
+            </nav>
+
+            <!-- Drop down menu for smaller screens -->
+            <nav class="small-nav">
+                <div class="dropdown"> 
+                    <a class="menu" href="#" aria-label="Click/tap to open drop down navigation menu."><i class="fas fa-bars"></i></a>  
+                    <ul>                    
+                        <li>
+                            <a href="index.html" aria-label="Link returns to the top of the Home page">Home</a>                     
+                        </li>
+                        <li>
+                            <a href="fire.html" aria-label="Link navigates to the Fire page">Fire</a>
+                        </li>
+                        <li class="active">
+                            <a href="ice.html" aria-label="Link to the Ice page">Ice</a>
+                        </li>
+                        <li id="gallery-drop">
+                            <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>        
     </header>
@@ -72,11 +94,13 @@
     </section>
 
     <!-- Arrow navigation -->
-    <section class="layout-white">
+    <div class="layout-white">
         <div class="nav-arrow-container">
-            <p><a href="fire.html" aria-label="Link to the Ice page">&#x2190;</a> PREVIOUS PAGE <span id="nav-gap"></span> NEXT PAGE <a href="gallery.html" aria-label="Link to the Gallery page">&#x2192;</a></p>            
+            <div class="nav-arrows">
+                <a href="fire.html" aria-label="Link to the Ice page">&#x2190;<span class="prev-next"> PREVIOUS PAGE</span></a><span id="nav-gap"></span><a href="gallery.html" aria-label="Link to the Gallery page"><span class="prev-next">NEXT PAGE </span>&#x2192;</a>
+            </div>           
         </div>
-    </section>
+    </div>
 
     <!-- Footer attributes and social media links -->
     <footer>
@@ -84,10 +108,10 @@
             <h3>Attributes</h3>
             <ul>            
                 <li>
-                    <b>Iconography</b><br>Page logo icon made by<br><a href="https://smashicons.com/" title="Smashicons" target="_blank" rel="noopener" aria-label="Link to smashicons.com, the makers of the page logo icon (opens in a new window)">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener" aria-label="Link to flaticon.com, the hosting site for the page logo icon (opens in a new window)">www.flaticon.com</a><br>Social media icons made by<br><a href="https://www.fontawesome.com" target="_blank" rel="noopener" aria-label="Link to fontawesome.com, the makers of the social media link icons (opens in a new window)">www.fontawesome.com</a>
+                    <h4>Iconography</h4><br>Page logo icon made by<br><a href="https://smashicons.com/" title="Smashicons" target="_blank" rel="noopener" aria-label="Link to smashicons.com, the makers of the page logo icon (opens in a new window)">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener" aria-label="Link to flaticon.com, the hosting site for the page logo icon (opens in a new window)">www.flaticon.com</a><br>Social media icons made by<br><a href="https://www.fontawesome.com" target="_blank" rel="noopener" aria-label="Link to fontawesome.com, the makers of the social media link icons (opens in a new window)">www.fontawesome.com</a>
                 </li>            
                 <li>
-                    <b>Facts</b><br>All factual information came from<br>our tour guide of <a href="https://www.vjv.com" target="_blank" rel="noopener" aria-label="Link to vjv.com, the Jules Vern Travel Agent website we booked our trip with (opens in a new window)">Jules Vern Tours</a>
+                    <h4>Facts</h4><br>All factual information came from<br>our tour guide of <a href="https://www.vjv.com" target="_blank" rel="noopener" aria-label="Link to vjv.com, the Jules Vern Travel Agent website we booked our trip with (opens in a new window)">Jules Vern Tours</a>
                 </li>
             </ul>
         </div>

@@ -17,7 +17,8 @@
     <header>
         <div class="navbar">
             <a href="index.html" aria-label="Link returns to the Home page" class="nav-logo">
-                <h2>Bucket List Travel Blog <img id="compass" src="assets/images/compass_icon.png" alt="Compass icon"></h2>
+                <h2 id="big-logo">Bucket List Travel Bl<img class="compass" src="assets/images/compass_icon.png" alt="Compass icon"><span class="space"></span>g</h2>
+                <h2 id="small-logo">BL<img class="compass" src="assets/images/compass_icon.png" alt="Compass icon"><span class="space"></span>G</h2>
             </a>
             <a href="index.html" aria-label="Link returns to the Home page" class="nav-destination">
                 <h2>Iceland</h2>
@@ -38,58 +39,68 @@
                     </li>
                 </ul>
             </nav>
-        </div>
-        <div id="gallery-header"><h1>GALLERY</h1></div>        
+
+            <!-- Drop down menu for smaller screens -->
+            <nav class="small-nav">
+                <div class="dropdown"> 
+                    <a class="menu" href="#" aria-label="Click/tap to open drop down navigation menu."><i class="fas fa-bars"></i></a>  
+                    <ul>                    
+                        <li>
+                            <a href="index.html" aria-label="Link returns to the top of the Home page">Home</a>                     
+                        </li>
+                        <li>
+                            <a href="fire.html" aria-label="Link navigates to the Fire page">Fire</a>
+                        </li>
+                        <li>
+                            <a href="ice.html" aria-label="Link to the Ice page">Ice</a>
+                        </li>
+                        <li class="active" id="gallery-drop">
+                            <a href="gallery.html" aria-label="Link to the Gallery page">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>                
     </header>
 
-    <!-- Image slide show -->
+    <!-- Image gallery -->
     <section id="gallery">
-        <div id="gallery-container">
-            <div class="gallery-img">
-                <img src="assets/images/slide/aurora_borealis-slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/bridge_remains-slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/glacier-slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/glacier_lagoon2-slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/grass_church_slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/ice_black_sand1_slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/ice_surf_slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/ice_black_sand3_slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/landscape1_slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/no_mans_land_slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/snow_landscape_slide.jpg" alt="">
-            </div>
-            <div class="gallery-img">
-                <img src="assets/images/slide/horse.jpg" alt="">
-            </div>
+        <div id="gallery-header">
+            <h1>GALLERY</h1>
+        </div>
+        <p>Click on an image to open in a new window</p>
+        <div id="gallery-container">            
+            <a href="assets/images/slide/aurora_borealis-slide.jpg" target="_blank"><img src="assets/images/slide/aurora_borealis-slide.jpg" alt="Green Aurora Borealis in the night sky."></a>
+            <a href="assets/images/slide/bridge_remains-slide.jpg" target="_blank"><img src="assets/images/slide/bridge_remains-slide.jpg" alt=" The twisted remains of a bridge taken out by a flash flood of melted glacier ice after an eruption."></a>
+            <a href="assets/images/slide/glacier-slide.jpg" target="_blank"><img src="assets/images/slide/glacier-slide.jpg" alt="Landscape image of a glacier."></a>
+            <a href="assets/images/slide/glacier_lagoon2-slide.jpg" target="_blank"><img src="assets/images/slide/glacier_lagoon2-slide.jpg" alt="Broken glacier ice floating in a lagoon."></a> 
+            <a href="assets/images/slide/grass_church_slide.jpg" target="_blank"><img src="assets/images/slide/grass_church_slide.jpg" alt="A turf covered church"></a> 
+            <a href="assets/images/slide/ice_black_sand1_slide.jpg" target="_blank"><img src="assets/images/slide/ice_black_sand1_slide.jpg" alt="A piece of glacier ice, shaped by the surf, laying on a black sand beach."></a> 
+            <a href="assets/images/slide/ice_surf_slide.jpg" target="_blank"><img src="assets/images/slide/ice_surf_slide.jpg" alt="A large piece of glacier ice washed up in the surf."></a> 
+            <a href="assets/images/slide/ice_black_sand3_slide.jpg" target="_blank"><img src="assets/images/slide/ice_black_sand3_slide.jpg" alt="Black sand beach littered with odd shaped glacier ice."></a> 
+            <a href="assets/images/slide/landscape1_slide.jpg" target="_blank"><img src="assets/images/slide/landscape1_slide.jpg" alt="A landscape image of a farm at the base of mountains and a glacier."></a> 
+            <a href="assets/images/slide/no_mans_land_slide.jpg" target="_blank"><img src="assets/images/slide/no_mans_land_slide.jpg" alt="A small image and church situated in the valley between the North American and Eurasian tectonic plates."></a> 
+            <a href="assets/images/slide/snow_landscape_slide.jpg" target="_blank"><img src="assets/images/slide/snow_landscape_slide.jpg" alt="Landscape view looking down over mountains and a snow covered glacier."></a> 
+            <a href="assets/images/slide/horse.jpg" target="_blank"><img src="assets/images/slide/horse.jpg" alt="A horse native to Iceland. The hair is almost wooly to protect against the harsh Icelandic climate."></a> 
         </div>
     </section>
 
-    <!-- Arrow navigation -->
-    <section class="layout-white">
-        <div class="nav-arrow-container">
-            <p><a href="ice.html" aria-label="Link to the Ice page">&#x2190;</a> PREVIOUS PAGE </p>            
+    <!-- Info Video -->
+    <div class="layout-blue" >
+        <div id="video-container">
+            <iframe id="video" width="650" height="405" src="https://www.youtube.com/embed/7KQFCtjzUpw" title="YouTube video player" aria-label="Short video guide showing activities in Iceland." allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
         </div>
-    </section>
+        <p id="video-message">Click <a href="https://www.youtube.com/embed/7KQFCtjzUpw" target="_blank" rel="noopener" aria-label="Short video guide showing activities in Iceland (opens in a new window).">here </a> if video doesn't start.</p>
+    </div>
+
+    <!-- Arrow navigation -->
+    <div class="layout-white">
+        <div class="nav-arrow-container">
+            <div class="nav-arrows">
+                <a href="ice.html" aria-label="Link to the Ice page">&#x2190;<span class="prev-next"> PREVIOUS PAGE</span></a>
+            </div>            
+        </div>
+    </div>
 
     <!-- Footer attributes and social media links -->
     <footer>
@@ -97,10 +108,10 @@
             <h3>Attributes</h3>
             <ul>            
                 <li>
-                    <b>Iconography</b><br>Page logo icon made by<br><a href="https://smashicons.com/" title="Smashicons" target="_blank" rel="noopener" aria-label="Link to smashicons.com, the makers of the page logo icon (opens in a new window)">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener" aria-label="Link to flaticon.com, the hosting site for the page logo icon (opens in a new window)">www.flaticon.com</a><br>Social media icons made by<br><a href="https://www.fontawesome.com" target="_blank" rel="noopener" aria-label="Link to fontawesome.com, the makers of the social media link icons (opens in a new window)">www.fontawesome.com</a>
+                    <h4>Iconography</h4><br>Page logo icon made by<br><a href="https://smashicons.com/" title="Smashicons" target="_blank" rel="noopener" aria-label="Link to smashicons.com, the makers of the page logo icon (opens in a new window)">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener" aria-label="Link to flaticon.com, the hosting site for the page logo icon (opens in a new window)">www.flaticon.com</a><br>Social media icons made by<br><a href="https://www.fontawesome.com" target="_blank" rel="noopener" aria-label="Link to fontawesome.com, the makers of the social media link icons (opens in a new window)">www.fontawesome.com</a>
                 </li>            
                 <li>
-                    <b>Facts</b><br>All factual information came from<br>our tour guide of <a href="https://www.vjv.com" target="_blank" rel="noopener" aria-label="Link to vjv.com, the Jules Vern Travel Agent website we booked our trip with (opens in a new window)">Jules Vern Tours</a>
+                    <h4>Facts</h4><br>All factual information came from<br>our tour guide of <a href="https://www.vjv.com" target="_blank" rel="noopener" aria-label="Link to vjv.com, the Jules Vern Travel Agent website we booked our trip with (opens in a new window)">Jules Vern Tours</a>
                 </li>
             </ul>
         </div>
